@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite the associated paper."
+title: "Frequency-bias-aware evaluation of deep spatiotemporal rainfall nowcasting from GPM IMERG over Vietnam"
+authors:
+  - family-names: "Trương"
+    given-names: "Ngô Phát"
+repository-code: "https://github.com/ngophatneknha/rains2s-imerg-nowcasting"
+license: MIT
+keywords:
+  - precipitation nowcasting
+  - GPM IMERG
+  - ConvLSTM
+  - frequency bias
+  - Vietnam
