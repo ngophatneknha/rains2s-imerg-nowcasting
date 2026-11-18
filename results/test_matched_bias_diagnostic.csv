@@ -1,0 +1,4 @@
+lead_min,tau_test_mmh,rains2s_seed0_csi,rains2s_seed0_bias,persistence_csi,persistence_bias,diff_csi
+30,2.96,0.6717,1.000,0.6554,1.000,0.0163
+60,3.49,0.5977,0.999,0.5192,1.000,0.0786
+90,4.07,0.5137,1.000,0.4273,0.999,0.0863

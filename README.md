@@ -44,3 +44,6 @@ Mã nguồn theo giấy phép MIT (`LICENSE`). Khi dùng mã hoặc kết quả,
 - `results/calibration_thresholds_tau.csv`: validation-selected thresholds tau (mm/h, mean over 3 seeds) for 1, 2 and 5 mm/h.
 - `results/persistence_calibrated.csv`: persistence calibrated with the same procedure; tau equals the evaluation threshold, so CSI is unchanged.
 - `figures_code/persistence_calibration.py`: script that produced the persistence table (needs the processed rainfall arrays).
+
+## Test-matched bias diagnostic
+`results/test_matched_bias_diagnostic.csv` and `figures_code/test_matched_diagnostic.py`: RainS2S (seed 0) recalibrated on the test set so that bias = 1.000. CSI still exceeds persistence by +0.016, +0.079, +0.086 at +30, +60, +90 min. Uses test labels, so diagnostic only.
