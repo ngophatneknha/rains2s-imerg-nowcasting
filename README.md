@@ -39,3 +39,8 @@ Trung bình ± độ lệch chuẩn qua 3 seed. Độ lệch chuẩn trong bài 
 
 ## Giấy phép và trích dẫn
 Mã nguồn theo giấy phép MIT (`LICENSE`). Khi dùng mã hoặc kết quả, vui lòng trích dẫn bài báo (xem `CITATION.cff`). Dữ liệu IMERG thuộc NASA và tuân theo điều khoản của GES DISC.
+
+## Calibration thresholds and calibrated persistence
+- `results/calibration_thresholds_tau.csv`: validation-selected thresholds tau (mm/h, mean over 3 seeds) for 1, 2 and 5 mm/h.
+- `results/persistence_calibrated.csv`: persistence calibrated with the same procedure; tau equals the evaluation threshold, so CSI is unchanged.
+- `figures_code/persistence_calibration.py`: script that produced the persistence table (needs the processed rainfall arrays).
